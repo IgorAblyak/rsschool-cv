@@ -65,3 +65,35 @@ HTML and CSS coding
 _Portfolio:_
 [http://venoteka.ru/](http://venoteka.ru/) _coding on the main page and also minor edits in other places_
 [http://thenoon.ru/](http://thenoon.ru/) _minor edits in different places_
+
+## Education
+
+---
+
+_2020_  
+**SIA BARU**
+_Course:_ AGILE FUN-da-MENTALS
+
+_2020_  
+**IBA Institute**
+_Course:_ Information Security
+
+_2017_  
+**IT-school Myfreedom**
+_Course:_ Frontend
+
+_2016_  
+**GeekBrains**
+_Course:_ Introduction to Programming
+
+_1996 - 2001_  
+**Belarusian State University of Informatics and Radioelectronics**
+Radio Engineer
+
+## Language Proficiency Levels
+
+---
+
+**English level - A2**
+I visited conversation english course at international charity center "Hope" in Minsk.
+And now I am reading a proffecional literature, listen podcats in english for improve understanding language.
