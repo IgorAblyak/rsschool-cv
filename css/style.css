@@ -152,6 +152,6 @@ pre {
   border-radius: 5px;
 }
 
-.experience p {
+.experience p, .education p {
   margin: 5px 0;
 }
