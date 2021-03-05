@@ -64,8 +64,7 @@ header h2 {
   color: #444;
 }
 
-.contact-link,
-a[href^="tel"] {
+.contact-link {
   color: #444;
   text-decoration: none;
 }
@@ -74,7 +73,41 @@ a[href^="tel"] {
   color: #cf8a05;
 }
 
-p {
+main {
+	padding: 0 40px;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 0;
+	border-top: 1px solid #dedede;
+}
+
+section:first-child {
+	border-top: 0;
+}
+
+section:last-child {
+	padding: 20px 0 10px;
+}
+
+.section-title {
+	width: 25%;
+}
+
+.section-content {
+	width: 72.5%;
+}
+
+h2.section-title {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: 1.5em;
+	color: #cf8a05;
+}
+
+p.section-content {
   margin-bottom: 20px;
   font-size: 1em;
   line-height: 1.4em;
