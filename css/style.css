@@ -138,3 +138,12 @@ h2.section-title {
   font-style: italic;
   font-weight: 600;
 }
+
+pre { 
+  width: 75%;
+  padding: 10px;
+  font-family: monospace;
+  background-color: #f1ebeb;
+  border: 1px solid #444;
+  border-radius: 5px;
+}
