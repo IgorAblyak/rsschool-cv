@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Lato", helvetica, arial, sans-serif;
+  font-size: 16px;
+  color: #222;
+  background: #181818;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 30px auto;
+  background: #f3f3f3;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 35px;
+  border-bottom: 3px solid #cf8a05;
+  background: #ededed;
+}
+
+.headshot {
+  width: 12.5%;
+}
+
+.headshot img {
+  width: 100%;
+  height: auto;
+  border-radius: 50px;
+}
+
+.name {
+  margin-left: -30px;
+}
+
+header h1 {
+  margin-bottom: 0;
+  font-size: 2.5em;
+  font-weight: 700;
+  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
+}
+
+header h2 {
+  margin-top: 0;
+  font-size: 2em;
+  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
+}
+
+.contact-details ul {
+  margin-top: 2px;
+  font-size: 0.9em;
+  list-style-type: none;
+}
+
+.contact-details ul li {
+  margin-bottom: 3px;
+  color: #444;
+}
+
+.contact-link,
+a[href^="tel"] {
+  color: #444;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  color: #cf8a05;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 1em;
+  line-height: 1.4em;
+  color: #444;
+}
