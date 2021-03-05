@@ -69,6 +69,10 @@ header h2 {
   text-decoration: none;
 }
 
+.contact-link span {
+  font-style: italic;
+}
+
 .contact-link:hover {
   color: #cf8a05;
 }
@@ -117,24 +121,24 @@ h2.section-title {
 	font-size: 1.5em;
 }
 
-.subDetails {
+.sub-details {
   margin: 0;
 	font-size: 0.8em;
 	font-style: italic;
 }
 
-.keySkills {
+.key-skills {
 	margin-bottom: 20px;
 	list-style-type: disc;
 	font-size: 1em;
 	color: #444;
 }
 
-.keySkills ul li {
+.key-skills ul li {
 	margin-bottom: 3px;
 }
 
-.keySkills span {
+.key-skills span {
   font-style: italic;
   font-weight: 600;
 }
@@ -146,4 +150,8 @@ pre {
   background-color: #f1ebeb;
   border: 1px solid #444;
   border-radius: 5px;
+}
+
+.experience p {
+  margin: 5px 0;
 }
