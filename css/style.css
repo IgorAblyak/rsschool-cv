@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 html,
 body {
@@ -26,9 +24,7 @@ header {
   background: #ededed;
 }
 
-.headshot {
-  width: 12.5%;
-}
+.headshot { width: 12.5%; }
 
 .headshot img {
   width: 100%;
@@ -36,9 +32,7 @@ header {
   border-radius: 50px;
 }
 
-.name {
-  margin-left: -30px;
-}
+.name { margin-left: -30px; }
 
 header h1 {
   margin-bottom: 0;
@@ -69,17 +63,11 @@ header h2 {
   text-decoration: none;
 }
 
-.contact-link span {
-  font-style: italic;
-}
+.contact-link span { font-style: italic; }
 
-.contact-link:hover {
-  color: #cf8a05;
-}
+.contact-link:hover { color: #cf8a05; }
 
-main {
-	padding: 0 40px;
-}
+main { padding: 0 40px; }
 
 section {
   display: flex;
@@ -88,17 +76,11 @@ section {
 	border-top: 1px solid #dedede;
 }
 
-section:first-child {
-	border-top: 0;
-}
+section:first-child { border-top: 0; }
 
-section:last-child {
-	padding: 20px 0 10px;
-}
+section:last-child { padding: 20px 0 10px; }
 
-.section-title {
-	width: 25%;
-}
+.section-title { width: 25%; }
 
 .section-content {
   width: 72.5%;
@@ -134,9 +116,7 @@ h2.section-title {
 	color: #444;
 }
 
-.key-skills ul li {
-	margin-bottom: 3px;
-}
+.key-skills ul li { margin-bottom: 3px; }
 
 .key-skills span {
   font-style: italic;
@@ -152,6 +132,4 @@ pre {
   border-radius: 5px;
 }
 
-.experience p, .education p {
-  margin: 5px 0;
-}
+.experience p, .education p { margin: 5px 0; }
