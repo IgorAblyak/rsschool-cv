@@ -157,11 +157,48 @@ pre {
 
 .experience p, .education p { margin: 5px 0; }
 
-.footer {
+footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 25px 35px;
+  padding: 20px 20px;
   border-top: 3px solid #cf8a05;
-  background: #d7d4d470;
+  background: #f1ebeb;
+  min-height: 50px;
 }
+
+footer span { display: block; }
+
+footer img { width: 10em; }
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo a { display: block; }
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.git svg{ margin-right: 20px; } 
+
+.git svg:hover { fill-opacity: 0.5; }
+
+.youtube svg:hover { fill: #ff3300; }
+
+.footer-navigation ul {
+  margin: 0px;
+  padding: 5px;
+  list-style-type: none;
+}
+
+.footer-navigation-link {
+  line-height: 1.5;
+  color: #444;
+}
+
+.footer-navigation-link:hover { color: #cf8a05; }
+
