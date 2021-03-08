@@ -10,7 +10,8 @@
 
     <link type="text/css" rel="stylesheet" href="css/normalize.css">
     <link type="text/css" rel="stylesheet" href="css/style.css">
-    <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Rokkitt:wght@400;700&display=swap" rel="stylesheet">
   </head>
 
   <body>
@@ -18,34 +19,47 @@
     <div class="container">
 
       <header>
-        <div class="headshot">
-          <img src="img/headshot.jpg" alt="Igor Ablyak" />
-        </div>
-        
-        <div class="name">
-          <h1>Igor Ablyak</h1>
-          <h2>Junior Frontend Developer</h2>
-        </div>
-        
-        <div class="contact-details">
+        <nav class="navigation">
           <ul>
-            <li>Borisov, Belarus</li>
-            <li>e-mail: <a class="contact-link" href="mailto:iablyak@gmail.com" target="_blank">iablyak@gmail.com</a></li>
-            <li>social: <a class="contact-link" href="facebook.com/profile.php?id=100005047635613" target="_blank">facebook</a></li>
-            <li>phone: <a class="contact-link" href="tel:+375295538082">+375 29 553 80 82</a></li>
+            <li><a class="navigation-link" href="#about">About</a></li>
+            <li><a class="navigation-link" href="#skills">Skills</a></li>
+            <li><a class="navigation-link" href="#code">Examples</a></li>
+            <li><a class="navigation-link" href="#work">Work experience</a></li>
+            <li><a class="navigation-link" href="#educ">Education</a></li>
+            <li><a class="navigation-link" href="#language">Language Proficiency Level</a></li>
           </ul>
+        </nav>
+
+        <div class="person">
+          <div class="headshot">
+            <img src="img/headshot.jpg" alt="Igor Ablyak" />
+          </div>
+          
+          <div class="name">
+            <h1>Igor Ablyak</h1>
+            <h2>Junior Frontend Developer</h2>
+          </div>
+          
+          <div class="contact-details">
+            <ul>
+              <li>Borisov, Belarus</li>
+              <li>e-mail: <a class="contact-link" href="mailto:iablyak@gmail.com" target="_blank">iablyak@gmail.com</a></li>
+              <li>social: <a class="contact-link" href="https://www.facebook.com/profile.php?id=100005047635613" target="_blank">facebook</a></li>
+              <li>phone: <a class="contact-link" href="tel:+375295538082">+375 29 553 80 82</a></li>
+            </ul>
+          </div>
         </div>
       </header>
 
       <main>
-        <section>
+        <section id="about">
           <h2 class="section-title">About</h2>
           <div class="section-content">
             <p>A self-motivated, organized, responsible and hardworking junior front-end developer with knowledge of HTML, CSS and JavaScript, who is interesting a personal development and extension training in the field of Information Technology. Effectively combining technical skills and soft skills with experience managment. Currently I'm open to suggestions.</p>
           </div>
         </section>
 
-        <section>
+        <section id="skills">
           <h2 class="section-title">Skills</h2>
           <div class="section-content">
             <ul class="key-skills">
@@ -58,7 +72,7 @@
           </div>
         </section>
 
-        <section>
+        <section id="code">
           <h2 class="section-title">Examples</h2>
           <div class="section-content">
             <pre>function Capital(array) {
@@ -74,7 +88,7 @@
           </div>
         </section>
 
-        <section class="experience">
+        <section id="work" class="experience">
           <h2 class="section-title">Work experience</h2>
           <div class="section-content">
             <h3>GeekBrains</h3>
@@ -97,11 +111,11 @@
             <h3>Freelance</h3>
             <p>Description: HTML and CSS coding</p>
             <p>Portfolio: <a class="contact-link" href="http://venoteka.ru/" target="_blank">http://venoteka.ru/ <span>coding on the main page and also minor edits in other places</span></a></p>
-            <a class="contact-link" href="http://thenoon.ru/" target="_blank">http://thenoon.ru/ <span>minor edits in different places</span></a></p>
+            <a class="contact-link" href="http://thenoon.ru/" target="_blank">http://thenoon.ru/ <span>minor edits in different places</span></a>
           </div>
         </section>
 
-        <section class="education">
+        <section id="educ" class="education">
           <h2 class="section-title">Education</h2>
           <div class="section-content">
             <h3>SIA BARU</h3>
@@ -126,7 +140,7 @@
           </div>
         </section>
 
-        <section>
+        <section id="language">
           <h2 class="section-title">Language Proficiency Level</h2>
           <div class="section-content">
             <h3>English level - A2</h3>
@@ -135,6 +149,41 @@
           </div>
         </section>
       </main>
+
+      <footer>
+        <div class="logo">
+          <a href="https://rs.school/js/" target="_blank">
+            <img src="img/rs_school_js.svg" alt="rs-school">
+          </a>
+          <span>&#169; 2021 Igor Ablyak</span>
+        </div>
+
+        <div class="links">
+          <a class="git" href="https://igorablyak.github.io/rsschool-cv/" target="_blank">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+              <path d="M16 0.395c-8.836 0-16 7.163-16 16 0 7.069 4.585 13.067 10.942 15.182 0.8 0.148 1.094-0.347 1.094-0.77 0-0.381-0.015-1.642-0.022-2.979-4.452 0.968-5.391-1.888-5.391-1.888-0.728-1.849-1.776-2.341-1.776-2.341-1.452-0.993 0.11-0.973 0.11-0.973 1.606 0.113 2.452 1.649 2.452 1.649 1.427 2.446 3.743 1.739 4.656 1.33 0.143-1.034 0.558-1.74 1.016-2.14-3.554-0.404-7.29-1.777-7.29-7.907 0-1.747 0.625-3.174 1.649-4.295-0.166-0.403-0.714-2.030 0.155-4.234 0 0 1.344-0.43 4.401 1.64 1.276-0.355 2.645-0.532 4.005-0.539 1.359 0.006 2.729 0.184 4.008 0.539 3.054-2.070 4.395-1.64 4.395-1.64 0.871 2.204 0.323 3.831 0.157 4.234 1.026 1.12 1.647 2.548 1.647 4.295 0 6.145-3.743 7.498-7.306 7.895 0.574 0.497 1.085 1.47 1.085 2.963 0 2.141-0.019 3.864-0.019 4.391 0 0.426 0.288 0.925 1.099 0.768 6.354-2.118 10.933-8.113 10.933-15.18 0-8.837-7.164-16-16-16z"></path>
+            </svg>
+          </a>
+          
+          <a class="youtube" href="https://youtu.be/jeU8O5ve7Ls" target="_blank">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+              <title>play</title>
+              <path d="M30.662 5.003c-4.488-0.645-9.448-1.003-14.662-1.003s-10.174 0.358-14.662 1.003c-0.86 3.366-1.338 7.086-1.338 10.997s0.477 7.63 1.338 10.997c4.489 0.645 9.448 1.003 14.662 1.003s10.174-0.358 14.662-1.003c0.86-3.366 1.338-7.086 1.338-10.997s-0.477-7.63-1.338-10.997zM12 22v-12l10 6-10 6z"></path>
+            </svg>
+          </a>
+        </div>
+
+        <nav class="footer-navigation">
+          <ul>
+            <li><a class="footer-navigation-link" href="#about">About</a></li>
+            <li><a class="footer-navigation-link" href="#skills">Skills</a></li>
+            <li><a class="footer-navigation-link" href="#code">Examples</a></li>
+            <li><a class="footer-navigation-link" href="#work">Work experience</a></li>
+            <li><a class="footer-navigation-link" href="#educ">Education</a></li>
+            <li><a class="footer-navigation-link" href="#language">Language Proficiency Level</a></li>
+          </ul>
+        </nav>
+      </footer>
 
     </div>
 
