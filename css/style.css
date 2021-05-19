@@ -187,6 +187,8 @@ footer img { width: 10em; }
 
 .git svg:hover { fill-opacity: 0.5; }
 
+.links .youtube { display: none; }
+
 .youtube svg:hover { fill: #ff3300; }
 
 .footer-navigation ul {
