@@ -18,3 +18,44 @@ A self-motivated, organized, responsible and hardworking junior front-end develo
 - Programming languages: JavaScript
 - Code version control: Git
 - Tools: VSCode, Developer Tools, Figma, Photoshop
+
+## Work experience
+
+---
+**RSSchool**  
+_Course:_ JavaScript/Front-end  
+_Description:_
+Learning JavaScript  
+_Portfolio:_  
+[https://igorablyak-jsfe2021q3-momentum.netlify.app/](https://igorablyak-jsfe2021q3-momentum.netlify.app/)
+[https://rolling-scopes-school.github.io/igorablyak-JSFE2021Q1/virtual-piano/](https://rolling-scopes-school.github.io/igorablyak-JSFE2021Q1/virtual-piano/)
+[https://rolling-scopes-school.github.io/igorablyak-JSFE2021Q1/online-zoo/](https://rolling-scopes-school.github.io/igorablyak-JSFE2021Q1/online-zoo/)
+
+**GeekBrains**  
+_Course:_ Introduction to Programming  
+_Description:_
+Introduction to programming on JavaScript
+_Portfolio:_  
+[https://igorablyak.github.io/GeekBrains/index.html](https://igorablyak.github.io/GeekBrains/index.html)
+
+**IT-school Myfreedom**  
+_Course:_ Frontend  
+_Description:_
+Learned HTML, CSS, JS and a bit React  
+_Portfolio:_  
+[https://github.com/IgorAblyak/ReactTest](https://github.com/IgorAblyak/ReactTest)
+
+**Self-training**  
+_Description:_
+Practice and improve skills HTML, CSS and JS  
+_Portfolio:_  
+[https://igorablyak.github.io/V/index.html](https://igorablyak.github.io/V/index.html)
+[https://igorablyak.github.io/Synology/index.html](https://igorablyak.github.io/Synology/index.html)
+[https://igorablyak.github.io/Barbershop/index.html](https://igorablyak.github.io/Barbershop/index.html)
+
+**Freelance**  
+_Description:_
+HTML and CSS coding  
+_Portfolio:_  
+[http://venoteka.ru/](http://venoteka.ru/) _coding on the main page and also minor edits in other places_  
+[http://thenoon.ru/](http://thenoon.ru/) _minor edits in different places_
