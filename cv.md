@@ -83,3 +83,11 @@ _Course:_ Introduction to Programming
 _1996 - 2001_  
 **Belarusian State University of Informatics and Radioelectronics**  
 Radio Engineer
+
+## Language Proficiency Levels
+
+---
+
+**English level - B1**  
+
+I visited conversation English course at international charity center "Hope" in Minsk. And now I am taking an English course at Stafford school, reading a professional literature, listen podcasts in English for improve understanding language.
